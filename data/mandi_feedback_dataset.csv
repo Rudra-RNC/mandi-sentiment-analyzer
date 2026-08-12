@@ -1,0 +1,571 @@
+date,buyer,tag,comment,sentiment
+2026-05-27,Green Basket,other,"Green Basket is a reliable partner for cauliflower, will continue working with them.",positive
+2026-07-21,Sunita Agro,quality,"Bekar quality cauliflower, will think twice before buying again.",negative
+2026-07-06,Sunita Agro,price,"Sunita Agro charged more than market rate for spinach, unhappy with pricing.",negative
+2026-05-28,Gupta Wholesale,service,Service was chaotic and disrespectful at the potatoes counter.,negative
+2026-06-14,Mehta Foods,other,Won't be selling rice to Mehta Foods again after this experience.,negative
+2026-08-05,Bansal Traders,quality,Very satisfied with the freshness of the spinach.,positive
+2026-07-12,Sunita Agro,quantity,"Quantity of cotton did not match what was agreed, felt cheated.",negative
+2026-07-14,Patel Trading Co,other,"Standard transaction for cotton, nothing to report either way.",neutral
+2026-05-26,Om Vegetables,quality,tomatoes quality impressed everyone at the counter.,positive
+2026-08-08,Patel Trading Co,quality,"No damage, no rot, potatoes quality was excellent this time.",positive
+2026-08-03,Singh Traders,quality,cauliflower quality impressed everyone at the counter.,positive
+2026-07-01,Sunita Agro,quality,"spinach was half rotten on arrival, very poor quality.",negative
+2026-06-14,Sharma & Sons,quality,Very satisfied with the freshness of the sugarcane.,positive
+2026-05-24,Gupta Wholesale,quantity,"Weighing was honest for sugarcane, no complaints on quantity.",positive
+2026-08-11,Patel Trading Co,price,"Price dropped suddenly for spinach without any warning, unfair.",negative
+2026-06-20,Verma Produce,service,Staff were impolite and dismissive during the chillies sale.,negative
+2026-06-07,Krishna Foods,quality,"Genuine and fresh bananas, quality was top notch.",positive
+2026-07-02,Patel Trading Co,other,"Received the bananas delivery, order was fulfilled as per agreement.",neutral
+2026-08-03,Patel Trading Co,quality,"Patel Trading Co always sends good quality rice, reliable seller.",positive
+2026-05-18,Mehta Foods,quantity,"Quantity of ginger did not match what was agreed, felt cheated.",negative
+2026-07-03,Bansal Traders,price,"Price dropped suddenly for mangoes without any warning, unfair.",negative
+2026-06-02,Ramesh Traders,quantity,"Full weight delivered for sugarcane, no shortfall at all.",positive
+2026-05-21,Patel Trading Co,quantity,"Correct weight and well packed tomatoes, very satisfied.",positive
+2026-06-12,Green Basket,quality,"Green Basket sent damaged spinach, quality was terrible.",negative
+2026-05-22,Mehta Foods,quality,spinach was stale and damaged during transport.,negative
+2026-07-24,Sharma & Sons,other,"Standard transaction for wheat, nothing to report either way.",neutral
+2026-06-28,Gupta Wholesale,quality,"Genuine and fresh rice, quality was top notch.",positive
+2026-05-16,Gupta Wholesale,quantity,"No shortage in chillies quantity, very reliable this time.",positive
+2026-07-26,Mehta Foods,price,"Mehta Foods offered a sasta rate on chillies, very happy with the deal.",positive
+2026-07-11,Om Vegetables,other,Won't be selling wheat to Om Vegetables again after this experience.,negative
+2026-06-05,Patel Trading Co,quantity,"Bag of spinach was short by two kilos, unfair weighing.",negative
+2026-05-18,Ramesh Traders,service,Courteous behaviour and fast processing for onions sale.,positive
+2026-07-24,Gupta Wholesale,quality,"Low quality cauliflower this time, many pieces were spoiled.",negative
+2026-06-23,Om Vegetables,quality,"Ganda maal tha, potatoes quality bahut kharab this time.",negative
+2026-07-01,Om Vegetables,service,Very professional service while selling onions this week.,positive
+2026-07-03,Sunita Agro,other,"Received the garlic delivery, order was fulfilled as per agreement.",neutral
+2026-05-16,Verma Produce,service,Verma Produce was slow and disorganized handling the bananas sale.,negative
+2026-05-19,Green Basket,price,"Green Basket offered a sasta rate on bananas, very happy with the deal.",positive
+2026-07-26,Sharma & Sons,price,Rate was fair compared to other mandis for cotton.,positive
+2026-08-05,Sharma & Sons,price,"Sharma & Sons gave a competitive price on cauliflower, satisfied with the deal.",positive
+2026-05-15,Sharma & Sons,price,"Accha rate mila for ginger, khush hoon with the price.",positive
+2026-05-20,Sunita Agro,quality,"chillies was okay, some pieces good some average.",neutral
+2026-05-31,Sharma & Sons,price,"Sharma & Sons charged more than market rate for brinjal, unhappy with pricing.",negative
+2026-05-24,Gupta Wholesale,quality,cotton quality impressed everyone at the counter.,positive
+2026-07-19,Om Vegetables,quantity,"Weighing was honest for mangoes, no complaints on quantity.",positive
+2026-07-07,Om Vegetables,service,"Payment came on time for brinjal, appreciate the reliability.",positive
+2026-05-23,Patel Trading Co,price,"Patel Trading Co quoted a mehenga rate for garlic, not acceptable.",negative
+2026-05-17,Gupta Wholesale,service,"Gupta Wholesale refused to pay on time for potatoes, unhappy experience.",negative
+2026-05-20,Bansal Traders,quality,"Low quality bananas this time, many pieces were spoiled.",negative
+2026-06-05,Patel Trading Co,quantity,"Patel Trading Co always gives accurate weight for bananas, trustworthy.",positive
+2026-07-17,Verma Produce,quantity,"Short weight again on cotton, bag was underweight by a few kilos.",negative
+2026-06-20,Sharma & Sons,quantity,"garlic weight seemed fine, did not check closely.",neutral
+2026-07-29,Patel Trading Co,quantity,"Quantity delivered for tomatoes matched the order, standard.",neutral
+2026-07-31,Green Basket,other,Happy with how the cauliflower deal went overall.,positive
+2026-06-11,Ramesh Traders,quality,Many bananas pieces were bruised and unfit for sale.,negative
+2026-06-11,Sunita Agro,price,"Fair price for the onions this week, good value for money.",positive
+2026-06-18,Verma Produce,service,"Had to wait for hours to sell wheat, poor service.",negative
+2026-06-19,Gupta Wholesale,quantity,"Scale seemed off, cotton weight was less than promised.",negative
+2026-05-18,Verma Produce,service,"Payment delayed by three days for brinjal, very disappointed.",negative
+2026-06-06,Ramesh Traders,price,"Price dropped suddenly for spinach without any warning, unfair.",negative
+2026-06-20,Ramesh Traders,quality,tomatoes quality impressed everyone at the counter.,positive
+2026-06-23,Gupta Wholesale,quantity,"Short weight again on mangoes, bag was underweight by a few kilos.",negative
+2026-07-16,Patel Trading Co,quality,"Accha maal tha, ginger was badhiya quality this time.",positive
+2026-06-15,Sunita Agro,quantity,"Quantity of onions did not match what was agreed, felt cheated.",negative
+2026-05-20,Patel Trading Co,price,"Patel Trading Co offered a sasta rate on potatoes, very happy with the deal.",positive
+2026-07-29,Singh Traders,service,Singh Traders staff were polite and quick at the weighing counter.,positive
+2026-07-09,Gupta Wholesale,quality,"Gupta Wholesale always sends good quality chillies, reliable seller.",positive
+2026-06-20,Bansal Traders,price,Price stayed steady for chillies this week.,neutral
+2026-06-13,Mehta Foods,service,Service was chaotic and disrespectful at the chillies counter.,negative
+2026-07-13,Om Vegetables,price,"Good rate, timely negotiation, price felt just right for mangoes.",positive
+2026-05-18,Om Vegetables,quantity,"No shortage in bananas quantity, very reliable this time.",positive
+2026-06-13,Gupta Wholesale,other,"Not happy with this batch of chillies, several issues overall.",negative
+2026-06-13,Patel Trading Co,quantity,"Quantity delivered for bananas matched the order, standard.",neutral
+2026-05-22,Sunita Agro,price,"Kharab rate mila for ginger, bekar deal compared to last season.",negative
+2026-05-16,Bansal Traders,other,"Received the rice delivery, order was fulfilled as per agreement.",neutral
+2026-06-02,Gupta Wholesale,quality,Very satisfied with the freshness of the bananas.,positive
+2026-07-28,Green Basket,quality,"Green Basket sent damaged ginger, quality was terrible.",negative
+2026-08-06,Ramesh Traders,other,Smooth process from start to finish for the sugarcane sale.,positive
+2026-06-18,Om Vegetables,other,Overall a good experience selling garlic to Om Vegetables this week.,positive
+2026-07-20,Mehta Foods,quantity,"Quantity of sugarcane did not match what was agreed, felt cheated.",negative
+2026-06-06,Green Basket,price,"Best price offered this season for bananas, sasta aur accha both.",positive
+2026-06-17,Green Basket,service,"Had to wait for hours to sell garlic, poor service.",negative
+2026-07-14,Verma Produce,quantity,"cotton quantity was spot on, appreciate the honest weighing.",positive
+2026-06-01,Sunita Agro,quantity,"Correct weight and well packed onions, very satisfied.",positive
+2026-06-19,Mehta Foods,quality,"Accha maal tha, potatoes was badhiya quality this time.",positive
+2026-07-15,Green Basket,price,"Green Basket quoted a mehenga rate for tomatoes, not acceptable.",negative
+2026-08-01,Om Vegetables,quantity,"Om Vegetables gave underweight cotton, very disappointed with the shortfall.",negative
+2026-07-07,Verma Produce,price,"Accha rate mila for tomatoes, khush hoon with the price.",positive
+2026-06-12,Verma Produce,price,Price stayed steady for onions this week.,neutral
+2026-07-18,Ramesh Traders,quality,"brinjal quality was average, nothing special to report.",neutral
+2026-06-27,Sharma & Sons,price,"Standard rate for bananas, average pricing this time.",neutral
+2026-07-09,Sharma & Sons,price,Rate is too mehenga compared to nearby mandi for wheat.,negative
+2026-08-09,Singh Traders,price,Pricing was honest and transparent for garlic this time.,positive
+2026-07-03,Bansal Traders,quality,"Fresh bananas, good quality, will buy again from Bansal Traders.",positive
+2026-07-14,Om Vegetables,other,Overall a good experience selling onions to Om Vegetables this week.,positive
+2026-06-22,Ramesh Traders,quality,mangoes quality impressed everyone at the counter.,positive
+2026-07-05,Gupta Wholesale,quantity,"Correct weight and well packed mangoes, very satisfied.",positive
+2026-05-31,Om Vegetables,other,Overall disappointed with how the brinjal deal was handled.,negative
+2026-05-17,Krishna Foods,quality,"Krishna Foods always sends good quality wheat, reliable seller.",positive
+2026-05-15,Mehta Foods,service,Rude behaviour at the weighing counter while selling onions.,negative
+2026-07-22,Patel Trading Co,price,Patel Trading Co offered the usual market rate for brinjal.,neutral
+2026-06-24,Bansal Traders,price,"Price dropped suddenly for potatoes without any warning, unfair.",negative
+2026-07-23,Om Vegetables,quantity,"Weight of chillies was roughly as expected, nothing unusual.",neutral
+2026-07-10,Sharma & Sons,price,"Price of rice is too expensive this week, disappointed with the rate.",negative
+2026-07-16,Bansal Traders,service,"Prompt payment for sugarcane, smooth transaction as always.",positive
+2026-07-24,Bansal Traders,price,"Standard rate for bananas, average pricing this time.",neutral
+2026-07-03,Gupta Wholesale,quality,"Standard batch of potatoes, as expected this season.",neutral
+2026-05-31,Om Vegetables,quality,"sugarcane was half rotten on arrival, very poor quality.",negative
+2026-07-24,Om Vegetables,price,"Om Vegetables gave a competitive price on mangoes, satisfied with the deal.",positive
+2026-07-12,Verma Produce,price,"Rate for wheat was okay, neither great nor bad.",neutral
+2026-05-28,Patel Trading Co,price,"Price suddenly increased for rice, feels unfair to regular buyers.",negative
+2026-06-01,Sharma & Sons,service,Very professional service while selling brinjal this week.,positive
+2026-05-26,Green Basket,quality,"Taaza aur badhiya bananas, quality bilkul sahi tha.",positive
+2026-07-14,Krishna Foods,price,"Overpriced mangoes this week, rate does not match quality.",negative
+2026-06-17,Gupta Wholesale,quantity,"Weighing was honest for cotton, no complaints on quantity.",positive
+2026-06-07,Mehta Foods,quality,"Kharab maal mila, spinach quality is not acceptable.",negative
+2026-06-20,Singh Traders,quantity,"sugarcane quantity was spot on, appreciate the honest weighing.",positive
+2026-05-19,Green Basket,price,"Green Basket quoted a mehenga rate for sugarcane, not acceptable.",negative
+2026-07-31,Patel Trading Co,price,"Best price offered this season for mangoes, sasta aur accha both.",positive
+2026-07-20,Ramesh Traders,service,"Standard service this week for garlic, average experience.",neutral
+2026-06-26,Ramesh Traders,price,Rate was fair compared to other mandis for bananas.,positive
+2026-05-25,Ramesh Traders,other,The whole rice transaction felt unfair from start to finish.,negative
+2026-07-15,Verma Produce,other,"Standard transaction for wheat, nothing to report either way.",neutral
+2026-06-15,Ramesh Traders,other,Smooth process from start to finish for the cauliflower sale.,positive
+2026-08-03,Mehta Foods,price,"Accha rate mila for brinjal, khush hoon with the price.",positive
+2026-07-16,Singh Traders,quantity,"Quantity delivered for cauliflower matched the order, standard.",neutral
+2026-07-06,Gupta Wholesale,service,Very professional service while selling onions this week.,positive
+2026-07-06,Singh Traders,quality,"cauliflower arrived clean and fresh, excellent quality overall.",positive
+2026-06-13,Patel Trading Co,price,"Price suddenly increased for cotton, feels unfair to regular buyers.",negative
+2026-06-05,Sunita Agro,quality,"Sunita Agro sent damaged spinach, quality was terrible.",negative
+2026-07-26,Sunita Agro,price,"Rate for bananas felt too high, overpriced compared to last week.",negative
+2026-05-15,Green Basket,quality,"Best quality wheat this season from Green Basket, superb produce.",positive
+2026-07-21,Krishna Foods,price,"Rate for spinach was okay, neither great nor bad.",neutral
+2026-05-21,Sunita Agro,price,Price stayed steady for cauliflower this week.,neutral
+2026-06-17,Verma Produce,service,"Verma Produce processed the bananas sale as usual, no issues.",neutral
+2026-08-04,Ramesh Traders,price,"Got a good rate for bananas, no complaints on pricing.",positive
+2026-06-03,Krishna Foods,price,"Price of potatoes is too expensive this week, disappointed with the rate.",negative
+2026-07-09,Mehta Foods,quality,"onions was okay, some pieces good some average.",neutral
+2026-05-23,Ramesh Traders,quantity,"No shortage in ginger quantity, very reliable this time.",positive
+2026-07-31,Patel Trading Co,price,"Felt cheated on the price of potatoes, rate was unfair.",negative
+2026-06-27,Singh Traders,quality,"onions quality was average, nothing special to report.",neutral
+2026-05-21,Singh Traders,other,Overall disappointed with how the chillies deal was handled.,negative
+2026-07-15,Patel Trading Co,price,"Price for tomatoes was about the same as last week, nothing special.",neutral
+2026-07-26,Krishna Foods,price,"Kharab rate mila for cauliflower, bekar deal compared to last season.",negative
+2026-07-02,Sunita Agro,other,"Not happy with this batch of onions, several issues overall.",negative
+2026-08-08,Mehta Foods,price,"Rate for tomatoes was okay, neither great nor bad.",neutral
+2026-05-16,Gupta Wholesale,quality,"Gupta Wholesale sent damaged potatoes, quality was terrible.",negative
+2026-05-30,Green Basket,price,"Price of garlic is too expensive this week, disappointed with the rate.",negative
+2026-05-27,Patel Trading Co,service,"Timely delivery and honest dealing from Patel Trading Co, trustworthy service.",positive
+2026-07-11,Krishna Foods,service,Courteous behaviour and fast processing for sugarcane sale.,positive
+2026-08-04,Patel Trading Co,other,The whole cauliflower transaction felt unfair from start to finish.,negative
+2026-06-30,Verma Produce,quantity,"No shortage in mangoes quantity, very reliable this time.",positive
+2026-07-18,Gupta Wholesale,other,Gupta Wholesale completed the cauliflower order as usual this week.,neutral
+2026-06-10,Bansal Traders,quality,"No damage, no rot, rice quality was excellent this time.",positive
+2026-06-01,Verma Produce,service,Verma Produce was slow and disorganized handling the chillies sale.,negative
+2026-05-25,Sharma & Sons,other,Smooth process from start to finish for the potatoes sale.,positive
+2026-08-01,Patel Trading Co,price,Patel Trading Co offered the usual market rate for cauliflower.,neutral
+2026-06-27,Om Vegetables,service,"Standard service this week for brinjal, average experience.",neutral
+2026-05-20,Om Vegetables,service,Om Vegetables staff were polite and quick at the weighing counter.,positive
+2026-05-28,Green Basket,quality,"Standard batch of garlic, as expected this season.",neutral
+2026-05-22,Mehta Foods,service,"Mehta Foods processed the chillies sale as usual, no issues.",neutral
+2026-05-23,Om Vegetables,other,"Received the potatoes delivery, order was fulfilled as per agreement.",neutral
+2026-07-19,Sharma & Sons,other,"Not happy with this batch of rice, several issues overall.",negative
+2026-08-12,Sunita Agro,quantity,"Sunita Agro always gives accurate weight for mangoes, trustworthy.",positive
+2026-07-24,Bansal Traders,service,Bansal Traders was slow and disorganized handling the ginger sale.,negative
+2026-07-19,Singh Traders,price,"Rate for mangoes was okay, neither great nor bad.",neutral
+2026-06-24,Krishna Foods,service,Service was chaotic and disrespectful at the rice counter.,negative
+2026-06-07,Sunita Agro,quality,"tomatoes quality was average, nothing special to report.",neutral
+2026-06-15,Mehta Foods,price,Rate was fair compared to other mandis for rice.,positive
+2026-05-30,Mehta Foods,quality,"sugarcane was okay, some pieces good some average.",neutral
+2026-05-27,Sharma & Sons,quantity,"Quantity of ginger did not match what was agreed, felt cheated.",negative
+2026-05-15,Gupta Wholesale,quality,"No damage, no rot, chillies quality was excellent this time.",positive
+2026-06-12,Verma Produce,service,Verma Produce handled the cotton pickup smoothly and on schedule.,positive
+2026-05-19,Krishna Foods,quality,"Accha maal tha, spinach was badhiya quality this time.",positive
+2026-06-22,Ramesh Traders,service,"Service was okay while selling rice, nothing memorable.",neutral
+2026-05-18,Ramesh Traders,quantity,"Scale seemed off, chillies weight was less than promised.",negative
+2026-05-29,Bansal Traders,service,"Bansal Traders processed the potatoes sale as usual, no issues.",neutral
+2026-06-07,Sharma & Sons,service,Sharma & Sons staff were polite and quick at the weighing counter.,positive
+2026-08-08,Sharma & Sons,service,Staff were impolite and dismissive during the brinjal sale.,negative
+2026-07-07,Mehta Foods,quantity,"Weight of rice was roughly as expected, nothing unusual.",neutral
+2026-07-25,Krishna Foods,quantity,"Weighing was honest for cauliflower, no complaints on quantity.",positive
+2026-05-23,Sharma & Sons,service,"Sharma & Sons processed the mangoes sale as usual, no issues.",neutral
+2026-05-29,Verma Produce,service,"Payment delayed by three days for mangoes, very disappointed.",negative
+2026-06-03,Bansal Traders,price,"Bansal Traders offered a sasta rate on cauliflower, very happy with the deal.",positive
+2026-07-06,Mehta Foods,quantity,"Weighing was honest for chillies, no complaints on quantity.",positive
+2026-05-16,Singh Traders,quality,"Quality of cotton matched what was promised, nothing more.",neutral
+2026-05-18,Green Basket,quality,"Quality of onions matched what was promised, nothing more.",neutral
+2026-06-23,Green Basket,service,Green Basket handled the potatoes pickup smoothly and on schedule.,positive
+2026-08-06,Green Basket,quality,"Bekar quality spinach, will think twice before buying again.",negative
+2026-07-09,Singh Traders,price,"Singh Traders charged more than market rate for sugarcane, unhappy with pricing.",negative
+2026-07-12,Verma Produce,quantity,"Correct weight and well packed spinach, very satisfied.",positive
+2026-08-06,Sharma & Sons,price,"Good rate, timely negotiation, price felt just right for tomatoes.",positive
+2026-05-15,Patel Trading Co,quantity,"Short weight again on chillies, bag was underweight by a few kilos.",negative
+2026-06-15,Patel Trading Co,quantity,"Quantity delivered for sugarcane matched the order, standard.",neutral
+2026-06-08,Sunita Agro,price,"Sunita Agro charged more than market rate for potatoes, unhappy with pricing.",negative
+2026-06-20,Sharma & Sons,quantity,"Sharma & Sons always gives accurate weight for onions, trustworthy.",positive
+2026-05-27,Bansal Traders,quality,"potatoes was half rotten on arrival, very poor quality.",negative
+2026-07-28,Bansal Traders,price,"Rate for sugarcane felt too high, overpriced compared to last week.",negative
+2026-06-06,Sharma & Sons,quantity,Consistently getting short weight on onions from this counter.,negative
+2026-05-16,Patel Trading Co,price,Price stayed steady for bananas this week.,neutral
+2026-06-22,Verma Produce,quantity,"Bag of potatoes was short by two kilos, unfair weighing.",negative
+2026-08-01,Patel Trading Co,price,"Standard rate for brinjal, average pricing this time.",neutral
+2026-06-14,Krishna Foods,quantity,"No shortage in brinjal quantity, very reliable this time.",positive
+2026-06-01,Ramesh Traders,quality,"bananas was okay, some pieces good some average.",neutral
+2026-07-21,Om Vegetables,other,Won't be selling cauliflower to Om Vegetables again after this experience.,negative
+2026-05-26,Verma Produce,quality,"Taaza aur badhiya brinjal, quality bilkul sahi tha.",positive
+2026-07-28,Mehta Foods,quality,Quality of chillies has dropped a lot compared to before.,negative
+2026-06-15,Bansal Traders,price,"Best price offered this season for bananas, sasta aur accha both.",positive
+2026-06-28,Singh Traders,quality,"Singh Traders sent damaged cauliflower, quality was terrible.",negative
+2026-07-25,Sharma & Sons,service,"Had to wait for hours to sell rice, poor service.",negative
+2026-06-29,Verma Produce,price,"Got a good rate for garlic, no complaints on pricing.",positive
+2026-07-16,Verma Produce,quality,cauliflower was stale and damaged during transport.,negative
+2026-07-17,Krishna Foods,price,Krishna Foods offered the usual market rate for wheat.,neutral
+2026-05-17,Mehta Foods,quality,"Accha maal tha, wheat was badhiya quality this time.",positive
+2026-07-15,Bansal Traders,quality,"cauliflower arrived clean and fresh, excellent quality overall.",positive
+2026-07-23,Krishna Foods,price,Krishna Foods offered the usual market rate for onions.,neutral
+2026-06-17,Verma Produce,price,"Felt cheated on the price of ginger, rate was unfair.",negative
+2026-06-27,Verma Produce,service,"Service was okay while selling mangoes, nothing memorable.",neutral
+2026-07-07,Verma Produce,price,"Accha rate mila for cotton, khush hoon with the price.",positive
+2026-07-21,Mehta Foods,quality,"Low quality ginger this time, many pieces were spoiled.",negative
+2026-08-08,Om Vegetables,quality,"Kharab maal mila, cauliflower quality is not acceptable.",negative
+2026-05-31,Singh Traders,other,Smooth process from start to finish for the wheat sale.,positive
+2026-05-31,Singh Traders,price,"Price for bananas was about the same as last week, nothing special.",neutral
+2026-06-13,Patel Trading Co,quantity,"Bag of rice had exact weight as agreed, good dealing.",positive
+2026-06-23,Om Vegetables,service,Rude behaviour at the weighing counter while selling garlic.,negative
+2026-07-16,Sharma & Sons,quality,"mangoes was okay, some pieces good some average.",neutral
+2026-07-07,Gupta Wholesale,quantity,"rice quantity was spot on, appreciate the honest weighing.",positive
+2026-06-24,Sharma & Sons,price,"Price for garlic was about the same as last week, nothing special.",neutral
+2026-06-23,Singh Traders,quality,"Quality of spinach matched what was promised, nothing more.",neutral
+2026-07-18,Patel Trading Co,price,"Rate for sugarcane felt too high, overpriced compared to last week.",negative
+2026-06-20,Krishna Foods,price,"Kharab rate mila for ginger, bekar deal compared to last season.",negative
+2026-08-12,Om Vegetables,quantity,"Short weight again on chillies, bag was underweight by a few kilos.",negative
+2026-05-20,Ramesh Traders,service,Rude behaviour at the weighing counter while selling sugarcane.,negative
+2026-08-01,Verma Produce,quality,chillies was stale and damaged during transport.,negative
+2026-08-06,Ramesh Traders,price,"Ramesh Traders quoted a mehenga rate for tomatoes, not acceptable.",negative
+2026-05-22,Mehta Foods,quality,"sugarcane had visible mold, quality was completely unacceptable.",negative
+2026-08-05,Ramesh Traders,price,"Rate for brinjal was okay, neither great nor bad.",neutral
+2026-05-24,Singh Traders,other,"Not happy with this batch of wheat, several issues overall.",negative
+2026-05-18,Ramesh Traders,price,"Price suddenly increased for onions, feels unfair to regular buyers.",negative
+2026-06-25,Bansal Traders,quality,"Best quality rice this season from Bansal Traders, superb produce.",positive
+2026-07-15,Patel Trading Co,quality,Quality of rice has dropped a lot compared to before.,negative
+2026-06-15,Ramesh Traders,price,"Accha rate mila for garlic, khush hoon with the price.",positive
+2026-08-02,Bansal Traders,price,"Fair price for the wheat this week, good value for money.",positive
+2026-07-17,Krishna Foods,other,"Received the sugarcane delivery, order was fulfilled as per agreement.",neutral
+2026-05-18,Sharma & Sons,quantity,"cauliflower weight seemed fine, did not check closely.",neutral
+2026-07-13,Ramesh Traders,quantity,"ginger weight seemed fine, did not check closely.",neutral
+2026-07-06,Gupta Wholesale,quality,Many mangoes pieces were bruised and unfit for sale.,negative
+2026-07-03,Sunita Agro,quantity,"Sunita Agro always gives accurate weight for garlic, trustworthy.",positive
+2026-07-18,Patel Trading Co,quality,Many brinjal pieces were bruised and unfit for sale.,negative
+2026-07-13,Bansal Traders,quantity,"Weight of wheat was roughly as expected, nothing unusual.",neutral
+2026-07-27,Singh Traders,quality,Quality of cauliflower has dropped a lot compared to before.,negative
+2026-08-09,Bansal Traders,quality,Quality of wheat has dropped a lot compared to before.,negative
+2026-07-14,Krishna Foods,price,"Krishna Foods quoted a mehenga rate for garlic, not acceptable.",negative
+2026-06-05,Bansal Traders,price,Rate was fair compared to other mandis for spinach.,positive
+2026-06-27,Om Vegetables,other,The whole bananas transaction felt unfair from start to finish.,negative
+2026-08-07,Om Vegetables,price,"Overpriced brinjal this week, rate does not match quality.",negative
+2026-07-07,Patel Trading Co,service,"Patel Trading Co refused to pay on time for potatoes, unhappy experience.",negative
+2026-08-08,Patel Trading Co,quantity,"Full weight delivered for wheat, no shortfall at all.",positive
+2026-05-19,Singh Traders,quality,"sugarcane was half rotten on arrival, very poor quality.",negative
+2026-08-01,Patel Trading Co,price,Rate is too mehenga compared to nearby mandi for onions.,negative
+2026-05-24,Verma Produce,service,"Service was okay while selling cauliflower, nothing memorable.",neutral
+2026-08-03,Patel Trading Co,service,"Prompt payment for brinjal, smooth transaction as always.",positive
+2026-06-26,Ramesh Traders,service,"Payment delayed by three days for brinjal, very disappointed.",negative
+2026-07-03,Mehta Foods,other,The whole mangoes transaction felt unfair from start to finish.,negative
+2026-05-29,Ramesh Traders,quality,"Low quality potatoes this time, many pieces were spoiled.",negative
+2026-05-15,Singh Traders,price,"Felt cheated on the price of wheat, rate was unfair.",negative
+2026-05-20,Ramesh Traders,service,Ramesh Traders handled the bananas pickup smoothly and on schedule.,positive
+2026-06-20,Ramesh Traders,quality,Ramesh Traders delivered a typical batch of ginger this week.,neutral
+2026-06-26,Ramesh Traders,price,"Kharab rate mila for sugarcane, bekar deal compared to last season.",negative
+2026-06-17,Singh Traders,quality,Singh Traders delivered a typical batch of garlic this week.,neutral
+2026-05-20,Ramesh Traders,service,Ramesh Traders handled the cauliflower pickup smoothly and on schedule.,positive
+2026-07-07,Sunita Agro,price,"Price suddenly increased for ginger, feels unfair to regular buyers.",negative
+2026-07-21,Sunita Agro,price,"Price for mangoes was about the same as last week, nothing special.",neutral
+2026-05-27,Mehta Foods,service,Mehta Foods handled the sugarcane pickup smoothly and on schedule.,positive
+2026-05-26,Om Vegetables,quality,"Taaza aur badhiya mangoes, quality bilkul sahi tha.",positive
+2026-07-20,Green Basket,quantity,"wheat delivery was short, missing almost half a bag.",negative
+2026-08-05,Patel Trading Co,service,Very professional service while selling brinjal this week.,positive
+2026-07-18,Om Vegetables,price,"Rate for brinjal was okay, neither great nor bad.",neutral
+2026-06-06,Sharma & Sons,other,"Not happy with this batch of spinach, several issues overall.",negative
+2026-08-11,Mehta Foods,price,"Best price offered this season for wheat, sasta aur accha both.",positive
+2026-05-18,Gupta Wholesale,service,"Payment came on time for chillies, appreciate the reliability.",positive
+2026-05-15,Bansal Traders,quantity,"Quantity delivered for wheat matched the order, standard.",neutral
+2026-05-20,Bansal Traders,quality,sugarcane was stale and damaged during transport.,negative
+2026-05-30,Green Basket,other,"Green Basket is a reliable partner for spinach, will continue working with them.",positive
+2026-06-16,Ramesh Traders,service,"Standard service this week for bananas, average experience.",neutral
+2026-07-04,Om Vegetables,quantity,"cauliflower weight seemed fine, did not check closely.",neutral
+2026-07-05,Om Vegetables,quality,"cotton was half rotten on arrival, very poor quality.",negative
+2026-07-10,Gupta Wholesale,service,Staff were impolite and dismissive during the ginger sale.,negative
+2026-07-05,Sunita Agro,quantity,Consistently getting short weight on bananas from this counter.,negative
+2026-06-14,Mehta Foods,quality,"No damage, no rot, potatoes quality was excellent this time.",positive
+2026-06-10,Ramesh Traders,quality,Many chillies pieces were bruised and unfit for sale.,negative
+2026-07-30,Mehta Foods,price,"Mehta Foods offered a sasta rate on brinjal, very happy with the deal.",positive
+2026-07-17,Sunita Agro,quality,"Kharab maal mila, brinjal quality is not acceptable.",negative
+2026-06-26,Bansal Traders,quality,"No damage, no rot, cotton quality was excellent this time.",positive
+2026-08-01,Mehta Foods,quality,"Ganda maal tha, chillies quality bahut kharab this time.",negative
+2026-08-05,Gupta Wholesale,quality,chillies was stale and damaged during transport.,negative
+2026-06-28,Singh Traders,service,Courteous behaviour and fast processing for brinjal sale.,positive
+2026-05-16,Krishna Foods,quality,"Quality of sugarcane matched what was promised, nothing more.",neutral
+2026-05-21,Green Basket,price,"Price suddenly increased for chillies, feels unfair to regular buyers.",negative
+2026-06-05,Om Vegetables,price,"Price suddenly increased for tomatoes, feels unfair to regular buyers.",negative
+2026-06-14,Sharma & Sons,service,"Standard service this week for mangoes, average experience.",neutral
+2026-06-09,Om Vegetables,price,"Om Vegetables gave a competitive price on cauliflower, satisfied with the deal.",positive
+2026-07-19,Ramesh Traders,service,"Ramesh Traders processed the tomatoes sale as usual, no issues.",neutral
+2026-07-13,Verma Produce,other,"Verma Produce is a reliable partner for ginger, will continue working with them.",positive
+2026-08-01,Krishna Foods,price,"Overpriced ginger this week, rate does not match quality.",negative
+2026-05-18,Krishna Foods,quality,"Ganda maal tha, cauliflower quality bahut kharab this time.",negative
+2026-08-12,Ramesh Traders,quality,Ramesh Traders delivered a typical batch of mangoes this week.,neutral
+2026-07-03,Mehta Foods,quality,"Genuine and fresh potatoes, quality was top notch.",positive
+2026-07-28,Gupta Wholesale,other,Happy with how the potatoes deal went overall.,positive
+2026-07-27,Singh Traders,price,Rate is too mehenga compared to nearby mandi for onions.,negative
+2026-05-24,Verma Produce,quality,"Fresh potatoes, good quality, will buy again from Verma Produce.",positive
+2026-06-26,Krishna Foods,price,"Got a good rate for sugarcane, no complaints on pricing.",positive
+2026-07-08,Gupta Wholesale,other,Gupta Wholesale completed the garlic order as usual this week.,neutral
+2026-07-14,Sharma & Sons,other,"Received the potatoes delivery, order was fulfilled as per agreement.",neutral
+2026-05-21,Ramesh Traders,other,Overall a good experience selling wheat to Ramesh Traders this week.,positive
+2026-08-02,Gupta Wholesale,other,Overall a good experience selling tomatoes to Gupta Wholesale this week.,positive
+2026-08-06,Sunita Agro,price,"Standard rate for cotton, average pricing this time.",neutral
+2026-06-02,Verma Produce,quality,"sugarcane had visible mold, quality was completely unacceptable.",negative
+2026-07-21,Gupta Wholesale,quality,"spinach had visible mold, quality was completely unacceptable.",negative
+2026-06-16,Gupta Wholesale,price,"Felt cheated on the price of chillies, rate was unfair.",negative
+2026-06-24,Krishna Foods,price,Rate was fair compared to other mandis for garlic.,positive
+2026-06-29,Verma Produce,service,"Verma Produce refused to pay on time for rice, unhappy experience.",negative
+2026-07-28,Mehta Foods,price,"Good rate, timely negotiation, price felt just right for potatoes.",positive
+2026-05-18,Bansal Traders,quality,"Kharab maal mila, onions quality is not acceptable.",negative
+2026-06-12,Singh Traders,quality,"Best quality wheat this season from Singh Traders, superb produce.",positive
+2026-06-02,Sharma & Sons,quantity,"Correct weight and well packed garlic, very satisfied.",positive
+2026-06-14,Green Basket,other,Smooth process from start to finish for the mangoes sale.,positive
+2026-06-19,Sunita Agro,price,"Got a good rate for potatoes, no complaints on pricing.",positive
+2026-07-28,Verma Produce,other,"Verma Produce is a reliable partner for brinjal, will continue working with them.",positive
+2026-05-15,Verma Produce,quality,"Fresh cauliflower, good quality, will buy again from Verma Produce.",positive
+2026-06-23,Patel Trading Co,quantity,"Bag of tomatoes was short by two kilos, unfair weighing.",negative
+2026-06-20,Sharma & Sons,price,"Price of bananas is too expensive this week, disappointed with the rate.",negative
+2026-07-08,Green Basket,quantity,"Quantity delivered for ginger matched the order, standard.",neutral
+2026-06-14,Sunita Agro,quality,Many ginger pieces were bruised and unfit for sale.,negative
+2026-06-18,Ramesh Traders,service,"Ramesh Traders refused to pay on time for ginger, unhappy experience.",negative
+2026-05-22,Green Basket,other,Won't be selling onions to Green Basket again after this experience.,negative
+2026-07-02,Mehta Foods,service,"Standard service this week for garlic, average experience.",neutral
+2026-06-12,Verma Produce,other,Verma Produce completed the bananas order as usual this week.,neutral
+2026-06-25,Om Vegetables,quantity,"No shortage in cauliflower quantity, very reliable this time.",positive
+2026-07-25,Patel Trading Co,quality,"garlic quality was average, nothing special to report.",neutral
+2026-08-07,Singh Traders,service,Courteous behaviour and fast processing for wheat sale.,positive
+2026-05-18,Bansal Traders,quality,"Quality of potatoes matched what was promised, nothing more.",neutral
+2026-06-06,Green Basket,other,Overall disappointed with how the garlic deal was handled.,negative
+2026-08-07,Bansal Traders,other,"Standard transaction for potatoes, nothing to report either way.",neutral
+2026-07-30,Singh Traders,price,Rate is too mehenga compared to nearby mandi for bananas.,negative
+2026-07-19,Mehta Foods,quality,"Ganda maal tha, brinjal quality bahut kharab this time.",negative
+2026-06-21,Om Vegetables,price,"Best price offered this season for brinjal, sasta aur accha both.",positive
+2026-07-26,Ramesh Traders,quality,tomatoes was stale and damaged during transport.,negative
+2026-06-01,Krishna Foods,other,Overall disappointed with how the potatoes deal was handled.,negative
+2026-07-15,Sharma & Sons,price,Price of chillies was reasonable and matched the market rate.,positive
+2026-07-04,Om Vegetables,quantity,"Short weight again on cauliflower, bag was underweight by a few kilos.",negative
+2026-06-28,Green Basket,service,"Timely delivery and honest dealing from Green Basket, trustworthy service.",positive
+2026-08-03,Verma Produce,price,"Rate for spinach felt too high, overpriced compared to last week.",negative
+2026-07-29,Singh Traders,service,Rude behaviour at the weighing counter while selling sugarcane.,negative
+2026-05-21,Krishna Foods,service,"Payment delayed by three days for rice, very disappointed.",negative
+2026-06-15,Patel Trading Co,quantity,Consistently getting short weight on mangoes from this counter.,negative
+2026-07-09,Krishna Foods,other,Smooth process from start to finish for the mangoes sale.,positive
+2026-06-17,Krishna Foods,service,"Service was okay while selling bananas, nothing memorable.",neutral
+2026-06-27,Krishna Foods,price,"Price dropped suddenly for bananas without any warning, unfair.",negative
+2026-07-29,Mehta Foods,service,"Mehta Foods processed the rice sale as usual, no issues.",neutral
+2026-06-08,Bansal Traders,quality,"bananas was okay, some pieces good some average.",neutral
+2026-05-24,Om Vegetables,quality,"Accha maal tha, tomatoes was badhiya quality this time.",positive
+2026-07-26,Krishna Foods,quality,"cauliflower arrived clean and fresh, excellent quality overall.",positive
+2026-08-09,Ramesh Traders,price,Price of wheat was reasonable and matched the market rate.,positive
+2026-08-04,Sunita Agro,other,Sunita Agro completed the wheat order as usual this week.,neutral
+2026-07-27,Bansal Traders,quantity,"Correct weight and well packed wheat, very satisfied.",positive
+2026-06-29,Ramesh Traders,service,Rude behaviour at the weighing counter while selling bananas.,negative
+2026-05-29,Ramesh Traders,quality,"Best quality rice this season from Ramesh Traders, superb produce.",positive
+2026-06-08,Gupta Wholesale,service,"Service was okay while selling tomatoes, nothing memorable.",neutral
+2026-05-22,Singh Traders,service,"Singh Traders refused to pay on time for spinach, unhappy experience.",negative
+2026-06-12,Bansal Traders,other,"Standard transaction for sugarcane, nothing to report either way.",neutral
+2026-05-30,Bansal Traders,quantity,"Weighing was honest for cauliflower, no complaints on quantity.",positive
+2026-06-02,Gupta Wholesale,service,"Had to wait for hours to sell garlic, poor service.",negative
+2026-06-30,Ramesh Traders,quantity,"Scale seemed off, wheat weight was less than promised.",negative
+2026-07-21,Verma Produce,price,"Price for garlic was about the same as last week, nothing special.",neutral
+2026-06-15,Om Vegetables,other,Happy with how the cauliflower deal went overall.,positive
+2026-07-20,Singh Traders,price,Pricing was honest and transparent for sugarcane this time.,positive
+2026-07-07,Patel Trading Co,other,Patel Trading Co completed the spinach order as usual this week.,neutral
+2026-06-03,Sharma & Sons,other,Happy with how the sugarcane deal went overall.,positive
+2026-05-19,Bansal Traders,quality,"Bekar quality spinach, will think twice before buying again.",negative
+2026-05-16,Ramesh Traders,price,Pricing was honest and transparent for bananas this time.,positive
+2026-08-04,Sharma & Sons,quality,"potatoes had visible mold, quality was completely unacceptable.",negative
+2026-06-05,Krishna Foods,price,"Got a good rate for ginger, no complaints on pricing.",positive
+2026-05-23,Patel Trading Co,quality,Very satisfied with the freshness of the brinjal.,positive
+2026-07-04,Krishna Foods,price,Price of ginger was reasonable and matched the market rate.,positive
+2026-06-19,Green Basket,service,"Timely delivery and honest dealing from Green Basket, trustworthy service.",positive
+2026-08-07,Gupta Wholesale,other,"Standard transaction for onions, nothing to report either way.",neutral
+2026-08-12,Mehta Foods,quantity,"rice weight seemed fine, did not check closely.",neutral
+2026-08-05,Green Basket,service,"Prompt payment for brinjal, smooth transaction as always.",positive
+2026-06-15,Mehta Foods,quantity,"Full weight delivered for rice, no shortfall at all.",positive
+2026-05-20,Sunita Agro,other,Overall disappointed with how the cauliflower deal was handled.,negative
+2026-07-18,Bansal Traders,service,"Payment came on time for sugarcane, appreciate the reliability.",positive
+2026-06-13,Gupta Wholesale,price,"Gupta Wholesale gave a competitive price on ginger, satisfied with the deal.",positive
+2026-07-13,Gupta Wholesale,quality,"rice quality was average, nothing special to report.",neutral
+2026-06-11,Singh Traders,service,"Had to wait for hours to sell onions, poor service.",negative
+2026-06-27,Ramesh Traders,quality,Very satisfied with the freshness of the brinjal.,positive
+2026-07-23,Singh Traders,quality,"Bekar quality rice, will think twice before buying again.",negative
+2026-08-10,Ramesh Traders,quantity,"Bag of ginger was short by two kilos, unfair weighing.",negative
+2026-05-15,Gupta Wholesale,other,Overall a good experience selling bananas to Gupta Wholesale this week.,positive
+2026-08-10,Krishna Foods,service,Courteous behaviour and fast processing for bananas sale.,positive
+2026-05-23,Patel Trading Co,service,Service was chaotic and disrespectful at the spinach counter.,negative
+2026-05-18,Om Vegetables,other,"Om Vegetables is a reliable partner for bananas, will continue working with them.",positive
+2026-06-08,Bansal Traders,quality,"Ganda maal tha, garlic quality bahut kharab this time.",negative
+2026-07-25,Ramesh Traders,price,Price of brinjal was reasonable and matched the market rate.,positive
+2026-07-17,Sharma & Sons,quality,"cauliflower had visible mold, quality was completely unacceptable.",negative
+2026-07-22,Green Basket,quantity,"Short weight again on chillies, bag was underweight by a few kilos.",negative
+2026-05-20,Bansal Traders,price,"Got a good rate for mangoes, no complaints on pricing.",positive
+2026-07-23,Green Basket,quantity,"Full weight delivered for brinjal, no shortfall at all.",positive
+2026-06-16,Green Basket,quantity,"Green Basket always gives accurate weight for tomatoes, trustworthy.",positive
+2026-05-21,Patel Trading Co,quantity,"Bag of cauliflower had exact weight as agreed, good dealing.",positive
+2026-08-07,Gupta Wholesale,quality,"Bekar quality mangoes, will think twice before buying again.",negative
+2026-06-13,Mehta Foods,quantity,"Full weight delivered for ginger, no shortfall at all.",positive
+2026-06-23,Green Basket,quantity,"Green Basket always gives accurate weight for sugarcane, trustworthy.",positive
+2026-07-27,Patel Trading Co,quality,"Kharab maal mila, sugarcane quality is not acceptable.",negative
+2026-06-15,Bansal Traders,service,"Payment delayed by three days for sugarcane, very disappointed.",negative
+2026-07-28,Singh Traders,service,Singh Traders handled the spinach pickup smoothly and on schedule.,positive
+2026-05-21,Gupta Wholesale,service,"Service was okay while selling ginger, nothing memorable.",neutral
+2026-07-12,Krishna Foods,quality,"Krishna Foods always sends good quality chillies, reliable seller.",positive
+2026-06-21,Gupta Wholesale,quality,"Genuine and fresh brinjal, quality was top notch.",positive
+2026-06-03,Krishna Foods,quality,"Fresh cotton, good quality, will buy again from Krishna Foods.",positive
+2026-06-26,Ramesh Traders,quantity,"Full weight delivered for cauliflower, no shortfall at all.",positive
+2026-05-15,Green Basket,quantity,"Bag of garlic was short by two kilos, unfair weighing.",negative
+2026-08-04,Ramesh Traders,price,"Fair price for the wheat this week, good value for money.",positive
+2026-07-09,Bansal Traders,quality,"Taaza aur badhiya bananas, quality bilkul sahi tha.",positive
+2026-05-22,Gupta Wholesale,quantity,"potatoes quantity was spot on, appreciate the honest weighing.",positive
+2026-05-31,Om Vegetables,quality,onions quality impressed everyone at the counter.,positive
+2026-07-31,Verma Produce,quality,"Kharab maal mila, ginger quality is not acceptable.",negative
+2026-05-16,Ramesh Traders,price,"Rate for mangoes felt too high, overpriced compared to last week.",negative
+2026-06-16,Verma Produce,quality,"Low quality brinjal this time, many pieces were spoiled.",negative
+2026-08-12,Mehta Foods,price,"Standard rate for rice, average pricing this time.",neutral
+2026-07-25,Verma Produce,price,"Best price offered this season for sugarcane, sasta aur accha both.",positive
+2026-07-27,Sunita Agro,service,Rude behaviour at the weighing counter while selling ginger.,negative
+2026-07-10,Ramesh Traders,quantity,"Ramesh Traders gave underweight garlic, very disappointed with the shortfall.",negative
+2026-06-20,Patel Trading Co,quantity,"potatoes weight seemed fine, did not check closely.",neutral
+2026-05-16,Singh Traders,service,Very professional service while selling mangoes this week.,positive
+2026-07-20,Ramesh Traders,price,Rate is too mehenga compared to nearby mandi for tomatoes.,negative
+2026-07-14,Om Vegetables,other,Happy with how the potatoes deal went overall.,positive
+2026-06-11,Patel Trading Co,price,"Rate for garlic felt too high, overpriced compared to last week.",negative
+2026-07-18,Gupta Wholesale,other,Won't be selling chillies to Gupta Wholesale again after this experience.,negative
+2026-07-18,Sunita Agro,price,Price of brinjal was reasonable and matched the market rate.,positive
+2026-07-05,Mehta Foods,price,"Mehta Foods offered a sasta rate on ginger, very happy with the deal.",positive
+2026-05-18,Sunita Agro,price,Price of tomatoes was reasonable and matched the market rate.,positive
+2026-06-13,Patel Trading Co,price,"Felt cheated on the price of sugarcane, rate was unfair.",negative
+2026-06-29,Sunita Agro,other,Won't be selling cotton to Sunita Agro again after this experience.,negative
+2026-05-27,Singh Traders,price,"Singh Traders gave a competitive price on rice, satisfied with the deal.",positive
+2026-06-08,Singh Traders,quantity,"Bag of brinjal had exact weight as agreed, good dealing.",positive
+2026-05-17,Ramesh Traders,quality,"Standard batch of mangoes, as expected this season.",neutral
+2026-07-31,Verma Produce,price,"Verma Produce charged more than market rate for wheat, unhappy with pricing.",negative
+2026-06-12,Krishna Foods,service,Very professional service while selling tomatoes this week.,positive
+2026-07-16,Sunita Agro,quality,"Fresh tomatoes, good quality, will buy again from Sunita Agro.",positive
+2026-05-27,Ramesh Traders,quality,"Taaza aur badhiya mangoes, quality bilkul sahi tha.",positive
+2026-08-09,Om Vegetables,quantity,"Weight of bananas was roughly as expected, nothing unusual.",neutral
+2026-06-28,Om Vegetables,price,"Price for onions was about the same as last week, nothing special.",neutral
+2026-07-17,Bansal Traders,quality,"Accha maal tha, mangoes was badhiya quality this time.",positive
+2026-05-15,Gupta Wholesale,service,"Gupta Wholesale refused to pay on time for cauliflower, unhappy experience.",negative
+2026-07-13,Krishna Foods,price,Rate was fair compared to other mandis for potatoes.,positive
+2026-06-06,Patel Trading Co,price,"Patel Trading Co quoted a mehenga rate for potatoes, not acceptable.",negative
+2026-05-19,Verma Produce,quality,"Ganda maal tha, wheat quality bahut kharab this time.",negative
+2026-07-05,Gupta Wholesale,price,"Good rate, timely negotiation, price felt just right for mangoes.",positive
+2026-08-03,Sharma & Sons,service,"Prompt payment for garlic, smooth transaction as always.",positive
+2026-07-21,Krishna Foods,quality,Quality of potatoes has dropped a lot compared to before.,negative
+2026-06-01,Om Vegetables,service,"Timely delivery and honest dealing from Om Vegetables, trustworthy service.",positive
+2026-08-08,Verma Produce,service,Verma Produce was slow and disorganized handling the onions sale.,negative
+2026-07-13,Sunita Agro,price,"Fair price for the bananas this week, good value for money.",positive
+2026-05-17,Sunita Agro,quantity,"Scale seemed off, chillies weight was less than promised.",negative
+2026-06-29,Gupta Wholesale,price,"Felt cheated on the price of wheat, rate was unfair.",negative
+2026-07-01,Sharma & Sons,quantity,"Weight of brinjal was roughly as expected, nothing unusual.",neutral
+2026-05-20,Ramesh Traders,other,Ramesh Traders completed the ginger order as usual this week.,neutral
+2026-07-16,Verma Produce,other,The whole sugarcane transaction felt unfair from start to finish.,negative
+2026-07-11,Om Vegetables,service,"Payment came on time for garlic, appreciate the reliability.",positive
+2026-05-22,Green Basket,price,"Kharab rate mila for potatoes, bekar deal compared to last season.",negative
+2026-06-26,Mehta Foods,quality,"Low quality bananas this time, many pieces were spoiled.",negative
+2026-07-14,Bansal Traders,quantity,"Bag of wheat had exact weight as agreed, good dealing.",positive
+2026-07-24,Gupta Wholesale,quantity,"Bag of bananas had exact weight as agreed, good dealing.",positive
+2026-07-25,Krishna Foods,price,"Overpriced chillies this week, rate does not match quality.",negative
+2026-07-13,Sunita Agro,price,"Good rate, timely negotiation, price felt just right for spinach.",positive
+2026-05-27,Sharma & Sons,quantity,"Weight of tomatoes was roughly as expected, nothing unusual.",neutral
+2026-07-29,Ramesh Traders,quantity,"Ramesh Traders gave underweight chillies, very disappointed with the shortfall.",negative
+2026-06-01,Singh Traders,quality,"Taaza aur badhiya wheat, quality bilkul sahi tha.",positive
+2026-05-19,Singh Traders,quantity,"rice delivery was short, missing almost half a bag.",negative
+2026-08-11,Mehta Foods,quality,"Genuine and fresh spinach, quality was top notch.",positive
+2026-07-18,Mehta Foods,quality,Mehta Foods delivered a typical batch of cauliflower this week.,neutral
+2026-07-27,Singh Traders,price,"Price dropped suddenly for chillies without any warning, unfair.",negative
+2026-06-18,Green Basket,quality,"Green Basket always sends good quality chillies, reliable seller.",positive
+2026-07-09,Sunita Agro,service,Sunita Agro staff were polite and quick at the weighing counter.,positive
+2026-06-07,Ramesh Traders,quantity,"spinach quantity was spot on, appreciate the honest weighing.",positive
+2026-05-20,Green Basket,quality,Many bananas pieces were bruised and unfit for sale.,negative
+2026-07-02,Gupta Wholesale,quality,"Gupta Wholesale always sends good quality spinach, reliable seller.",positive
+2026-06-23,Patel Trading Co,service,Staff were impolite and dismissive during the rice sale.,negative
+2026-06-16,Singh Traders,quality,"Standard batch of rice, as expected this season.",neutral
+2026-07-01,Patel Trading Co,quality,"No damage, no rot, bananas quality was excellent this time.",positive
+2026-05-16,Om Vegetables,service,"Prompt payment for bananas, smooth transaction as always.",positive
+2026-06-11,Gupta Wholesale,service,"Payment came on time for tomatoes, appreciate the reliability.",positive
+2026-06-09,Ramesh Traders,quantity,Consistently getting short weight on brinjal from this counter.,negative
+2026-06-14,Ramesh Traders,quality,"rice arrived clean and fresh, excellent quality overall.",positive
+2026-06-20,Bansal Traders,price,"Good rate, timely negotiation, price felt just right for wheat.",positive
+2026-06-02,Ramesh Traders,quality,"brinjal had visible mold, quality was completely unacceptable.",negative
+2026-06-29,Singh Traders,quality,"Best quality mangoes this season from Singh Traders, superb produce.",positive
+2026-06-24,Bansal Traders,service,"Timely delivery and honest dealing from Bansal Traders, trustworthy service.",positive
+2026-06-20,Patel Trading Co,quantity,"Quantity of spinach did not match what was agreed, felt cheated.",negative
+2026-07-06,Ramesh Traders,quantity,"Ramesh Traders gave underweight sugarcane, very disappointed with the shortfall.",negative
+2026-07-08,Om Vegetables,price,"Overpriced rice this week, rate does not match quality.",negative
+2026-05-28,Verma Produce,quantity,"ginger delivery was short, missing almost half a bag.",negative
+2026-08-10,Ramesh Traders,price,"Price of ginger is too expensive this week, disappointed with the rate.",negative
+2026-07-01,Bansal Traders,service,Service was chaotic and disrespectful at the mangoes counter.,negative
+2026-07-02,Om Vegetables,other,Overall disappointed with how the chillies deal was handled.,negative
+2026-06-12,Green Basket,quality,"Standard batch of rice, as expected this season.",neutral
+2026-07-04,Green Basket,other,The whole cotton transaction felt unfair from start to finish.,negative
+2026-06-19,Om Vegetables,price,"Standard rate for spinach, average pricing this time.",neutral
+2026-08-02,Krishna Foods,price,"Fair price for the onions this week, good value for money.",positive
+2026-07-28,Singh Traders,quality,Singh Traders delivered a typical batch of onions this week.,neutral
+2026-05-18,Krishna Foods,price,"Krishna Foods charged more than market rate for rice, unhappy with pricing.",negative
+2026-05-27,Patel Trading Co,price,Pricing was honest and transparent for bananas this time.,positive
+2026-07-29,Om Vegetables,other,Happy with how the brinjal deal went overall.,positive
+2026-08-05,Sunita Agro,price,"Overpriced sugarcane this week, rate does not match quality.",negative
+2026-06-17,Sharma & Sons,service,"Payment came on time for mangoes, appreciate the reliability.",positive
+2026-06-25,Mehta Foods,price,"Kharab rate mila for spinach, bekar deal compared to last season.",negative
+2026-07-18,Krishna Foods,service,"Timely delivery and honest dealing from Krishna Foods, trustworthy service.",positive
+2026-08-08,Patel Trading Co,quality,"cauliflower was half rotten on arrival, very poor quality.",negative
+2026-06-11,Mehta Foods,price,Mehta Foods offered the usual market rate for sugarcane.,neutral
+2026-05-29,Ramesh Traders,quality,"cauliflower arrived clean and fresh, excellent quality overall.",positive
+2026-07-29,Sharma & Sons,quantity,"Sharma & Sons gave underweight brinjal, very disappointed with the shortfall.",negative
+2026-07-22,Sharma & Sons,price,Price stayed steady for tomatoes this week.,neutral
+2026-06-27,Sunita Agro,other,"Sunita Agro is a reliable partner for mangoes, will continue working with them.",positive
+2026-08-01,Patel Trading Co,quantity,"Patel Trading Co gave underweight spinach, very disappointed with the shortfall.",negative
+2026-05-20,Krishna Foods,price,Pricing was honest and transparent for brinjal this time.,positive
+2026-07-14,Verma Produce,quality,"Best quality onions this season from Verma Produce, superb produce.",positive
+2026-05-28,Sharma & Sons,service,Sharma & Sons was slow and disorganized handling the tomatoes sale.,negative
+2026-07-21,Gupta Wholesale,service,Staff were impolite and dismissive during the potatoes sale.,negative
+2026-07-13,Sunita Agro,quantity,"Scale seemed off, garlic weight was less than promised.",negative
+2026-08-09,Bansal Traders,quantity,"onions quantity was spot on, appreciate the honest weighing.",positive
+2026-05-31,Mehta Foods,price,Mehta Foods offered the usual market rate for ginger.,neutral
+2026-07-05,Patel Trading Co,quality,Quality of bananas has dropped a lot compared to before.,negative
+2026-05-30,Ramesh Traders,price,"Price of wheat is too expensive this week, disappointed with the rate.",negative
+2026-06-04,Sharma & Sons,service,Courteous behaviour and fast processing for potatoes sale.,positive
+2026-08-06,Mehta Foods,quantity,"Scale seemed off, ginger weight was less than promised.",negative
+2026-06-12,Bansal Traders,service,Bansal Traders staff were polite and quick at the weighing counter.,positive
+2026-07-05,Green Basket,other,Overall a good experience selling garlic to Green Basket this week.,positive
+2026-06-03,Green Basket,quality,"Fresh chillies, good quality, will buy again from Green Basket.",positive
+2026-07-12,Ramesh Traders,quality,Ramesh Traders delivered a typical batch of tomatoes this week.,neutral
+2026-06-24,Sunita Agro,other,"Not happy with this batch of spinach, several issues overall.",negative
+2026-07-23,Patel Trading Co,service,Staff were impolite and dismissive during the potatoes sale.,negative
+2026-06-19,Verma Produce,quantity,"cotton delivery was short, missing almost half a bag.",negative
+2026-06-10,Gupta Wholesale,service,"Prompt payment for tomatoes, smooth transaction as always.",positive
+2026-06-05,Green Basket,quality,"Genuine and fresh cauliflower, quality was top notch.",positive
+2026-05-28,Sunita Agro,service,Sunita Agro staff were polite and quick at the weighing counter.,positive
+2026-07-20,Om Vegetables,quantity,"Bag of bananas was short by two kilos, unfair weighing.",negative
+2026-06-23,Sunita Agro,quantity,"Bag of chillies had exact weight as agreed, good dealing.",positive
+2026-07-29,Sharma & Sons,price,Price stayed steady for onions this week.,neutral
+2026-05-18,Bansal Traders,quantity,"chillies delivery was short, missing almost half a bag.",negative
+2026-07-24,Sunita Agro,quantity,"mangoes delivery was short, missing almost half a bag.",negative
+2026-06-09,Om Vegetables,quality,"garlic arrived clean and fresh, excellent quality overall.",positive
+2026-06-04,Om Vegetables,service,Service was chaotic and disrespectful at the potatoes counter.,negative
+2026-05-16,Verma Produce,service,"Had to wait for hours to sell garlic, poor service.",negative
+2026-07-10,Gupta Wholesale,quantity,Consistently getting short weight on garlic from this counter.,negative
+2026-06-27,Sunita Agro,price,Rate is too mehenga compared to nearby mandi for bananas.,negative
+2026-06-08,Mehta Foods,quantity,Consistently getting short weight on onions from this counter.,negative
+2026-07-05,Bansal Traders,quality,"Quality of spinach matched what was promised, nothing more.",neutral
+2026-07-02,Mehta Foods,price,"Mehta Foods gave a competitive price on onions, satisfied with the deal.",positive
+2026-06-01,Ramesh Traders,quality,"Ramesh Traders sent damaged brinjal, quality was terrible.",negative
+2026-07-16,Singh Traders,service,"Standard service this week for spinach, average experience.",neutral
+2026-05-29,Om Vegetables,service,"Payment delayed by three days for sugarcane, very disappointed.",negative
+2026-07-09,Om Vegetables,price,Pricing was honest and transparent for chillies this time.,positive
+2026-06-01,Green Basket,price,"Fair price for the rice this week, good value for money.",positive
+2026-07-02,Green Basket,service,Green Basket was slow and disorganized handling the ginger sale.,negative
+2026-06-10,Verma Produce,quality,"Bekar quality potatoes, will think twice before buying again.",negative
+2026-08-02,Green Basket,quality,Very satisfied with the freshness of the bananas.,positive
+2026-06-21,Gupta Wholesale,quality,"Standard batch of cauliflower, as expected this season.",neutral
+2026-07-14,Patel Trading Co,price,"Accha rate mila for garlic, khush hoon with the price.",positive
+2026-06-14,Mehta Foods,quality,"cauliflower quality was average, nothing special to report.",neutral
