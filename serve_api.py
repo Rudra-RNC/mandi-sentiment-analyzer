@@ -1,9 +1,6 @@
 """
 serve_api.py
 ------------
-Small Flask API that puts the trained model behind an HTTP endpoint, so the
-React dashboard (mandi-sentiment-dashboard.jsx) can call a real ML model
-instead of running its own keyword lexicon in the browser.
 
 Run:
     python serve_api.py
