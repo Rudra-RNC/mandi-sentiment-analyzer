@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef } from "react";
+import React, { useState, useMemo, useRef, useEffect } from "react";
 import Papa from "papaparse";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
@@ -22,22 +22,32 @@ const NEG_WORDS = new Set([
   "rejected","refuse","refused","rude","dirty","stale","moldy","mouldy","short",
   "underweight","kharab","bekar","ganda","mehenga","dhokha","gussa","naraaz",
 ]);
-const POS_PHRASES = ["on time","well packed","correct weight","fair price","fair rate","no complaints","good quality","full weight"];
-const NEG_PHRASES = ["short weight","under weight","not fresh","low quality","price drop","too expensive","not happy","poor quality","bad quality"];
+const API_BASE_URL = "http://localhost:5000";
 
-function analyzeSentiment(text) {
-  const lower = (text || "").toLowerCase();
-  const tokens = lower.replace(/[.,!?;:()"']/g, "").split(/\s+/).filter(Boolean);
-  let score = 0;
-  tokens.forEach((t) => {
-    if (POS_WORDS.has(t)) score += 1;
-    if (NEG_WORDS.has(t)) score -= 1;
+async function apiFetch(path, payload) {
+  const response = await fetch(`${API_BASE_URL}${path}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
   });
-  POS_PHRASES.forEach((p) => { if (lower.includes(p)) score += 1; });
-  NEG_PHRASES.forEach((p) => { if (lower.includes(p)) score -= 1; });
-  if (score > 0) return "positive";
-  if (score < 0) return "negative";
-  return "neutral";
+  const body = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(body.error || "API request failed.");
+  }
+  return body;
+}
+
+async function classifyComment(text) {
+  const body = await apiFetch("/predict", { comment: text });
+  return {
+    sentiment: body.sentiment,
+    confidence: body.confidence ?? null,
+  };
+}
+
+async function classifyComments(comments) {
+  const body = await apiFetch("/predict/batch", { comments });
+  return body.results || [];
 }
 
 const TAGS = [
@@ -144,7 +154,8 @@ const SEED_DATA = SEED_RAW.map((r, i) => ({
   buyer: r.buyer,
   tag: r.tag,
   comment: r.c,
-  sentiment: analyzeSentiment(r.c),
+  sentiment: "neutral",
+  confidence: null,
 }));
 
 const SENTIMENT_COLOR = { positive: "#3F6B2E", neutral: "#8A7B4E", negative: "#A8432B" };
@@ -152,6 +163,7 @@ const SENTIMENT_BG = { positive: "#E4EBD4", neutral: "#EDE3C6", negative: "#F1DC
 
 export default function MandiSentimentDashboard() {
   const [feedback, setFeedback] = useState(SEED_DATA);
+  const [apiStatus, setApiStatus] = useState({ ready: false, model: null, error: null });
   const [threshold, setThreshold] = useState(35);
   const [openReplyId, setOpenReplyId] = useState(null);
   const [copiedKey, setCopiedKey] = useState(null);
@@ -161,6 +173,40 @@ export default function MandiSentimentDashboard() {
 
   const [form, setForm] = useState({ buyer: "", tag: "price", comment: "", date: new Date().toISOString().slice(0, 10) });
   const [formErr, setFormErr] = useState("");
+
+  useEffect(() => {
+    let mounted = true;
+
+    async function initApi() {
+      try {
+        const healthRes = await fetch(`${API_BASE_URL}/health`);
+        const health = await healthRes.json().catch(() => ({}));
+        if (!healthRes.ok) {
+          throw new Error("Health check failed.");
+        }
+
+        const predictions = await classifyComments(SEED_DATA.map((r) => r.comment));
+        if (!mounted) return;
+
+        setFeedback(
+          SEED_DATA.map((row, i) => ({
+            ...row,
+            sentiment: predictions[i]?.sentiment || "neutral",
+            confidence: predictions[i]?.confidence ?? null,
+          }))
+        );
+        setApiStatus({ ready: true, model: health.model || "unknown", error: null });
+      } catch (err) {
+        if (!mounted) return;
+        setApiStatus({ ready: false, model: null, error: err.message || "Could not connect to Flask API." });
+      }
+    }
+
+    initApi();
+    return () => {
+      mounted = false;
+    };
+  }, []);
 
   // ---------- derived data ----------
   const stats = useMemo(() => {
@@ -233,23 +279,32 @@ export default function MandiSentimentDashboard() {
   }, [feedback, tagFilter]);
 
   // ---------- actions ----------
-  function addFeedback(e) {
+  async function addFeedback(e) {
     e.preventDefault();
     if (!form.buyer.trim() || !form.comment.trim()) {
       setFormErr("Enter a buyer/trader name and a comment.");
       return;
     }
-    const entry = {
-      id: `manual-${Date.now()}`,
-      date: form.date,
-      buyer: form.buyer.trim(),
-      tag: form.tag,
-      comment: form.comment.trim(),
-      sentiment: analyzeSentiment(form.comment),
-    };
-    setFeedback((prev) => [entry, ...prev]);
-    setForm({ buyer: "", tag: "price", comment: "", date: new Date().toISOString().slice(0, 10) });
-    setFormErr("");
+    try {
+      const comment = form.comment.trim();
+      const prediction = await classifyComment(comment);
+      const entry = {
+        id: `manual-${Date.now()}`,
+        date: form.date,
+        buyer: form.buyer.trim(),
+        tag: form.tag,
+        comment,
+        sentiment: prediction.sentiment || "neutral",
+        confidence: prediction.confidence,
+      };
+      setFeedback((prev) => [entry, ...prev]);
+      setForm({ buyer: "", tag: "price", comment: "", date: new Date().toISOString().slice(0, 10) });
+      setFormErr("");
+      setApiStatus((prev) => ({ ...prev, ready: true, error: null }));
+    } catch (err) {
+      setFormErr(err.message || "Could not get prediction from API.");
+      setApiStatus((prev) => ({ ...prev, ready: false, error: err.message || "Could not connect to Flask API." }));
+    }
   }
 
   function handleCsv(e) {
@@ -258,9 +313,9 @@ export default function MandiSentimentDashboard() {
     Papa.parse(file, {
       header: true,
       skipEmptyLines: true,
-      complete: (results) => {
+      complete: async (results) => {
         const validTagIds = new Set(TAGS.map((t) => t.id));
-        const rows = results.data
+        const draftRows = results.data
           .filter((r) => r.comment && r.comment.trim())
           .map((r, i) => {
             const tag = validTagIds.has((r.tag || "").toLowerCase()) ? r.tag.toLowerCase() : "other";
@@ -271,15 +326,30 @@ export default function MandiSentimentDashboard() {
               buyer: (r.buyer || "Unknown buyer").trim(),
               tag,
               comment: r.comment.trim(),
-              sentiment: analyzeSentiment(r.comment),
             };
           });
-        if (rows.length) {
+
+        if (!draftRows.length) {
+          setCsvMsg("No usable rows found. Check the comment column.");
+          setTimeout(() => setCsvMsg(null), 4500);
+          return;
+        }
+
+        try {
+          const predictions = await classifyComments(draftRows.map((r) => r.comment));
+          const rows = draftRows.map((row, i) => ({
+            ...row,
+            sentiment: predictions[i]?.sentiment || "neutral",
+            confidence: predictions[i]?.confidence ?? null,
+          }));
           setFeedback((prev) => [...rows, ...prev]);
           setCsvMsg(`Added ${rows.length} comment${rows.length === 1 ? "" : "s"} from CSV.`);
-        } else {
-          setCsvMsg("No usable rows found. Check the comment column.");
+          setApiStatus((prev) => ({ ...prev, ready: true, error: null }));
+        } catch (err) {
+          setCsvMsg(err.message || "Could not classify CSV comments via API.");
+          setApiStatus((prev) => ({ ...prev, ready: false, error: err.message || "Could not connect to Flask API." }));
         }
+
         setTimeout(() => setCsvMsg(null), 4500);
       },
     });
@@ -336,6 +406,13 @@ export default function MandiSentimentDashboard() {
                 <h1 className="mandi-display" style={{ fontSize: 26, margin: 0, letterSpacing: "0.01em" }}>Mandi Feedback Ledger</h1>
                 <p className="mandi-mono" style={{ margin: "2px 0 0", fontSize: 12, color: "#5C5738" }}>
                   {stats.total} entries on record &middot; updated as you add feedback
+                </p>
+                <p className="mandi-mono" style={{ margin: "4px 0 0", fontSize: 11, color: apiStatus.error ? "#A8432B" : "#5C5738" }}>
+                  {apiStatus.error
+                    ? `API offline: ${apiStatus.error}`
+                    : apiStatus.ready
+                      ? `Model API connected (${apiStatus.model || "unknown"})`
+                      : "Connecting to model API..."}
                 </p>
               </div>
             </div>
@@ -517,6 +594,11 @@ export default function MandiSentimentDashboard() {
                     <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
                       <strong style={{ fontSize: 13 }}>{f.buyer}</strong>
                       <span className="mandi-chip" style={{ background: SENTIMENT_BG[f.sentiment], color: SENTIMENT_COLOR[f.sentiment] }}>{f.sentiment}</span>
+                      {typeof f.confidence === "number" && (
+                        <span className="mandi-chip mandi-mono" style={{ background: "#E9DFC2", color: "#5C5738" }}>
+                          conf {Math.round(f.confidence * 100)}%
+                        </span>
+                      )}
                       <span className="mandi-chip" style={{ background: "#E9DFC2", color: "#5C5738" }}>{tagInfo.label}</span>
                     </div>
                     <span className="mandi-mono" style={{ fontSize: 11, color: "#8A8360" }}>{fmtDate(f.date)}</span>
@@ -554,7 +636,7 @@ export default function MandiSentimentDashboard() {
         </div>
 
         <p className="mandi-mono" style={{ textAlign: "center", fontSize: 11, color: "#8A8360", marginTop: 24 }}>
-          Sentiment is estimated with a plain-language keyword model — treat borderline calls as a starting point, not the final word.
+          Sentiment comes from the Flask ML API and confidence reflects model certainty for each comment.
         </p>
       </div>
     </div>
