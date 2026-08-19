@@ -374,7 +374,7 @@ export default function MandiSentimentDashboard() {
   }
 
   return (
-    <div style={{ background: "#EDE3C6", minHeight: "100vh", fontFamily: "'Karla', sans-serif", color: "#23301D" }}>
+    <div style={{ background: "#EDE3C6", minHeight: "100vh", fontFamily: "'Karla', sans-serif", color: "#23301f" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@500;700&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
         .mandi-display { font-family: 'Rokkitt', serif; }
